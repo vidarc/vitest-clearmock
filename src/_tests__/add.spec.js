@@ -1,11 +1,17 @@
+import fc from "fast-check";
 import { describe, expect, test } from "vitest";
 
 import { add } from "../add.js";
 
 describe("testing add function", () => {
-  test("it adds 2 and 2 correctly", () => {
-    const result = add(2, 2);
-
-    expect(result).toStrictEqual(4);
+  test("adds correctly", () => {
+    fc.assert(
+      fc.property(fc.integer(), fc.integer(), (a, b) => {
+        const result = add(a, b);
+        const expected = a + b;
+        expect(result).toEqual(expected);
+      }),
+      { verbose: true }
+    );
   });
 });
