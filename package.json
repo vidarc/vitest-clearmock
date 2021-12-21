@@ -2,6 +2,10 @@
   "name": "testing",
   "packageManager": "yarn@3.1.1",
   "type": "module",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
   "devDependencies": {
     "@testing-library/react": "^12.1.2",
     "c8": "^7.10.0",
@@ -10,9 +14,5 @@
     "typescript": "^4.5.4",
     "vite": "^2.7.4",
     "vitest": "^0.0.102"
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   }
 }
