@@ -2141,8 +2141,8 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     typescript: ^4.5.4
-    vite: ^2.7.7
-    vitest: ^0.0.118
+    vite: ^2.7.9
+    vitest: ^0.0.122
   languageName: unknown
   linkType: soft
 
@@ -2256,9 +2256,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^2.7.7":
-  version: 2.7.7
-  resolution: "vite@npm:2.7.7"
+"vite@npm:^2.7.9":
+  version: 2.7.9
+  resolution: "vite@npm:2.7.9"
   dependencies:
     esbuild: ^0.13.12
     fsevents: ~2.3.2
@@ -2281,13 +2281,13 @@ __metadata:
       optional: true
   bin:
     vite: bin/vite.js
-  checksum: ce7fd044b9bf29cad6a4ac0505b28d6f75cb461362d678898e78db8ff57763358c35914058c2c563548772fd714713dd8b61248d99759b64ef7576c12cd02401
+  checksum: 6a13e0678fec4d5811d4e1bc796a98644856e4d7a56b5e56dbe513834c871d2313a065e4b82469de910568c0d6c762133517c6b7bccff4514f9acf5ed47f1f61
   languageName: node
   linkType: hard
 
-"vitest@npm:^0.0.118":
-  version: 0.0.118
-  resolution: "vitest@npm:0.0.118"
+"vitest@npm:^0.0.122":
+  version: 0.0.122
+  resolution: "vitest@npm:0.0.122"
   dependencies:
     "@types/chai": ^4.3.0
     "@types/chai-subset": ^1.3.3
@@ -2309,7 +2309,7 @@ __metadata:
       optional: true
   bin:
     vitest: vitest.mjs
-  checksum: 3ef1daa8f9aa88baa17aee823ce2e272134a786f19b3fb87992dc4a0d9cc2444307126817077aec9cd691f6c4e1bcfce1fbd46e6cf72022d7cc1c0993b2c43ab
+  checksum: 7454073e643288b2669e8b19bac7a8e217399a80fbc6272a58c9f7719ebca91444b959ddfbe512df21a367f79947c762249029320c5870e549f6b4792d76c71d
   languageName: node
   linkType: hard
 
