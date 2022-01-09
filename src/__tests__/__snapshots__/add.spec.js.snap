@@ -1,0 +1,16 @@
+// Vitest Snapshot v1
+
+exports[`testing add function > when a test is nested > snapshot 1`] = `
+{
+  "array": [
+    1,
+    2,
+    3,
+  ],
+  "name": "hello",
+  "nested": {
+    "value": 2,
+  },
+  "value": 1,
+}
+`;
